@@ -1,0 +1,156 @@
+@font-face {
+  font-family: poppin;
+  src: url(font/Poppins.zip);
+}
+
+
+.bg-color{
+    background: linear-gradient(90deg,#7601D0 0%,#0199FE 100%);
+}
+a{
+    text-decoration: none !important;
+}
+#header .header-top{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+}
+
+  #header .header-navbar  .dropdown {
+    position: relative;
+    display: inline-block;
+  
+  }
+  
+  #header .header-navbar  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 1050px;
+    padding: 10px 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 20px;
+    top: 14px;
+    left: 44%;
+    transform: translateX( -28%);
+  }
+  #header .header-navbar  .c-1 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 1050px;
+    padding: 10px 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 20px;
+    top: 14px;
+    left: 44%;
+    transform: translateX( -37%);
+  }
+  #header .header-navbar  .c-2 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 200px;
+    padding: 10px 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 20px;
+   
+  }
+  #header .header-navbar .box{
+    padding: 20px 10px;
+    width: 100%;
+  }
+  #header .header-navbar .box p{
+   margin: 0;
+   font-size: 14px;
+   padding: 5px 0px;
+  }
+  #header .header-navbar ul li{
+   padding: 10px 15px;
+   cursor: pointer;
+  }
+  #header .header-navbar .box h6{
+    margin: 0;
+    font-size: 16px;
+    padding: 5px 0px;
+   }
+  #header .header-navbar  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  #header .header-navbar .bg-image{
+    background: url(image/menu_banner.jpg);
+    background-size: cover;
+    height: 250px;
+
+  }
+  
+  #header .header-navbar  .dropdown:hover .dropdown-content {display: block;}
+  
+#header .header-navbar .nav-item{
+  font-size: 16px;
+  font-weight: 500;
+}
+#header .d-blocks{
+  height: 90vh;
+ object-fit: cover;
+}
+#header .carousel-text h1{
+  font-size: 50px;
+}
+#header .carousel-text p{
+  font-size: 15px;
+}
+
+
+#idea .card-text{
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.scroll-text span{
+ padding-right: 50px;
+ font-weight: 800;
+ font-size: 16px;
+}
+#product .product-text h1{
+  font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: lightblue;
+  }
+
+
+}
